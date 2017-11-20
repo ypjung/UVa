@@ -26,5 +26,5 @@ echo -n "Commit: "
 read commit 
 echo `git commit -m "$commit"`
 echo `git remote add UVa https://github.com/ypjung/UVa.git`
-echo `git push --force --set-upstream UVa +master`
+echo `git push --force --set-upstream UVa master`
 
